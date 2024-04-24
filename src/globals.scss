@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.layout  {
+    height: 100%;
+}
+
+.nav_container  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    font-size: 2em;
+  }
+  
+
+.dashboard_container {
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    background-color: purple;
+}
+.allcharts_container, .chartview, .reports_container, .dashboard_landing_container {
+    height: 100%;
+    width: 100%;
+    padding: 2em;
+
+    h1 {
+        color: white;
+    }
+}
+
+.sidebar_container {
+    width: 300px;
+    min-height: 100vh;
+    background-color: darkslateblue;
+    color: white;
+    padding: 2rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.home_container {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    height: 1oovh;
+}
+
+.layout_container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* .main_outlet_container {
+    display: flex;
+} */
+
+/* .dashboard_outlet {
+    width: 75vw;
+    display: flex;
+}
+ */
+
+ .linechart_container, .barchart_container {
+  
+
+    svg {
+        display: block;
+        margin: auto;
+    }
+ }
